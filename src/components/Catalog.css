@@ -1,0 +1,23 @@
+.catalog {
+  padding: 8rem 0;
+}
+
+.catalog-slogan {
+  text-align: center;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 480px) {
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+}
